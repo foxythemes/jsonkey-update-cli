@@ -1,0 +1,28 @@
+{
+  "name": "@foxythemes/jsonkey-update-cli",
+  "version": "1.0.0",
+  "description": "Update a key on JSON file",
+  "main": "lib/jsonkey-update-cli.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "bin": {
+    "keyupdate": "./lib/jsonkey-update-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foxythemes/jsonkey-update-cli.git"
+  },
+  "author": "Jhon Pérez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foxythemes/jsonkey-update-cli/issues"
+  },
+  "homepage": "https://github.com/foxythemes/jsonkey-update-cli#readme",
+  "dependencies": {
+    "command-line-args": "^5.0.2"
+  }
+}
